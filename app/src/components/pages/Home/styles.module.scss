@@ -1,0 +1,69 @@
+body{
+    
+    background:-webkit-gradient(linear, left top, right top, from(#ffdde1), color-stop(#ee9ca7), color-stop(#a7bfe8), to(#6190e8));
+	background:linear-gradient(to right, #ffdde1, #ee9ca7, #a7bfe8, #6190e8);
+    background-size:500% 500%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    text-align: center;
+    margin: 30px auto auto;
+    overflow: hidden;
+    position: relative;
+    height: 59vh;
+    width: 60vh;
+    background: #f9f6ed;
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 5px 5px #999;
+}
+.subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:1.2rem;
+  }
+.title{
+   margin-block-start:15%;
+    letter-spacing: .143rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#ee9ca7;
+    font-weight:bold;
+    font-size:2.8rem;
+  }
+.btns{ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin:2em;
+}
+.btnLogIn {
+    color:white;
+    border-radius: 20px;
+    background:#ee9ca7; 
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 12rem;
+    padding: .5em;
+    transition: all .3s;
+    &:hover {
+        background-color:rgba(238,156,167,.25);
+        font-weight: bold;
+    }
+}
+.btnRegister{
+    color:white;
+    margin-bottom: .7em;
+    border-radius: 20px;
+    background:#a7bfe8;
+    text-decoration: none;
+    width: 12rem;
+    padding: .5em;
+    font-size: 1.5rem;
+    transition: all .3s;
+    &:hover {
+        background-color:rgba(238,156,167,.25);
+        font-weight: bold;
+    } 
+}   

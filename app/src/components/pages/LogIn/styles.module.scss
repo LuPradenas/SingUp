@@ -1,0 +1,71 @@
+.cardBody{
+    text-align: center;
+    margin: 30px auto auto;
+    overflow: hidden;
+    position: relative;
+    height: 79vh;
+    width: 70vh;
+    background: #f9f6ed;
+    border-radius: 0.25rem;
+    box-shadow: 5px 5px 5px 5px #999;
+}
+.subtitle1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:1rem;
+}
+
+.subtitle3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:0.9rem;
+
+}
+.title1{
+   margin-block-start:15%;
+    letter-spacing: .143rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#ee9ca7; 
+    font-weight:bold;
+    font-size:2.8rem;
+  }
+ 
+.btnBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#ee9ca7; 
+    border-radius: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 0;
+    &:hover {
+        border: 0 !important;
+    }
+}
+
+.button{
+    border:none;
+    color:white;
+    border-radius: 20px;
+    background:#ee9ca7; 
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 12rem;
+    padding: .5em;
+    transition: all .3s;
+    &:hover {
+    background-color:rgba(238,156,167,.25);
+    font-weight: bold;
+    
+ }  
+}
+
+.formInput{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    &::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    font-size: 1rem;
+    }
+  }
